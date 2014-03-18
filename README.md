@@ -29,5 +29,33 @@ However there is plenty of things to be done including starting to code through 
 The concept is more important and that is the reason I am placing the JavaScript in the open so that any one can develop the concepts in his /her own way.
 Please feel free to fork this.
 I can be reached @: palpronab@gmail.com
+Following is a quick tutorial for DWIS.js:
+
+
+after down loading dwisV0.js   file  include the following in your html 
+<script   src="dwisV0.js"> </script>
+To instantiate a WWW object :
+ { var W = new WWW(); }
+To create a Word :
+W.placeCue("w1") ;
+w1 is added to the metaWords 
+first time you introduce the word ; 
+To place w1 in a cue word w2 :
+W.placeCue("w1","w2");
+Things to Note:
+
+when you add a word , the spaces are replaced 
+by a single "_" ; 
+The word is added to a root named "root";
+so the word created will be 'root.w1',
+however the metaWord will be just 'w1'
+however you can change the root
+ by supplying the  name at time 
+of construction :
+var W = WWW("DrJones"); in this case W.placeCue("w1")  shall produce the Cue "DrJones.w1"
+
+enjoy!
+any questions :palpronab@gmailcom
+
 
 
