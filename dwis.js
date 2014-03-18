@@ -8,7 +8,10 @@
  //draw connection between properties and functions
  //all variable declared within WWW can have function attached through prototypes and value et in the WWW name space
  //www can have an object called workspace
-
+//THe Licence agreement in using  this document is defined  here :https://github.com/pronabpal/WWW/blob/master/LICENSE
+//WWW defined here
+//WWW functions only take cue object ; cuepath  is dot seperated name
+//dwisv0.js is the initial version of this document
 //WWW defined
 //WWW functions only take cue object ; cuepath  is dot seperated name
  function WWW(root) { 
